@@ -7,4 +7,3 @@ DEL /F /Q /S %cachefolder%\*
 
 :: Delete the remaining folders
 for /D %%i in ("%cachefolder%\*") do RD /S /Q "%%i"
-@pause
